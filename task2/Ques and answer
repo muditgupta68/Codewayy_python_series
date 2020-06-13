@@ -1,0 +1,11 @@
+QUESTIONS AND ANSWERS
+
+Q1. Why is list used?
+ans. List is mutable build in data type in python i.e we can append and pop the data accordingly. 
+
+Q2. How do lists and sets differ?
+ans. sets has stores the data in unordered way whereas lists stores data in a definite index.
+set doesnt carry dusplicate set of data whereas list can carry duplicate data.
+
+Q3. Application of dictionaries with a real world example.
+ans. The real world example of Dictionaries is Bank item list where the Bank I.D. of all the items acts as a keys in the Dictionary and Name of the people act as a values in the Dictionary.

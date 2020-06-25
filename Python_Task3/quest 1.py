@@ -3,25 +3,25 @@
 #-----------------------------------------------------------------------------------------------------------------------
 # function for name having middle name
 
-def FullName(FirstName,MiddleName,LastName):
-    return (FirstName + " " + MiddleName + " " + LastName)
+def fullName(firstName,middleName,lastName):
+    return (firstName + " " + middleName + " " + lastName)
 #-----------------------------------------------------------------------------------------------------------------------
 # functions for name having onlu first and last name
 
-def Full_Name(FirstName,LastName):
-    return (FirstName + " " + LastName)
+def full_Name(firstName,lastName):
+    return (firstName + " " + lastName)
 #-----------------------------------------------------------------------------------------------------------------------
 # functions for total marks
 
-def TotMarks(LstoMks):
-    TotalMarks = sum(LstoMks)
-    return (TotalMarks)
+def totMarks(LstoMks):
+    totalMarks = sum(LstoMks)
+    return (totalMarks)
 #-----------------------------------------------------------------------------------------------------------------------
 # functions for percentage scored
 
-def PercMarks(TMark,Mks):
-    PerMark = TMark/Mks
-    return(PerMark)
+def percMarks(tMark,Mks):
+    perMark = tMark/Mks
+    return(perMark)
 #-----------------------------------------------------------------------------------------------------------------------
 # functions for grading
 
@@ -39,17 +39,17 @@ def Grade(Percentage):
 #-----------------------------------------------------------------------------------------------------------------------
 # Master function
 
-def Master(FirstName,MiddleName,LastName,LstoMks,TMark,Mks,Percentage):
+def Master(firstName,middleName,lastName,LstoMks,tMark,Mks,Percentage):
     print("\n\n")
     print("-------------------------------------------------------------------------------------------------------------")
     print("--------------------------------------------------SCORECARD!-------------------------------------------------")
     print("-------------------------------------------------------------------------------------------------------------")
-    if MiddleName != "":
-        print("Name: ",FullName(FirstName, MiddleName, LastName))
+    if middleName != "":
+        print("Name: ",fullName(firstName, middleName, lastName))
     else:
-        print("Name: ",Full_Name(FirstName, LastName))
-    print("Total Marks Obtained: ",TotMarks(LstoMks))
-    print("Percentage obtained: ",PercMarks(TMark,Mks))
+        print("Name: ",full_Name(firstName, lastName))
+    print("Total Marks Obtained: ",totMarks(LstoMks))
+    print("Percentage obtained: ",percMarks(tMark,Mks))
     print("Grade obtained: ",Grade(Percentage))
     print("-------------------------------------------------------------------------------------------------------------")
     print("--------------------------------------------------THANKYOU!--------------------------------------------------")
@@ -62,14 +62,14 @@ def Master(FirstName,MiddleName,LastName,LstoMks,TMark,Mks,Percentage):
 print("Do you have Middle name?")
 Res = input("yes/no:-\n")
 if Res == "yes":
-    FirstName = input("Enter your first name:")
-    MiddleName = input("Enter your middle name:")
-    LastName = input("Enter your last name")
+    firstName = input("Enter your first name:")
+    middleName = input("Enter your middle name:")
+    lastName = input("Enter your last name")
 
 else:
-    FirstName = input("Enter your first name:")
-    LastName = input("Enter your last name")
-    MiddleName = ""
+    firstName = input("Enter your first name:")
+    lastName = input("Enter your last name")
+    middleName = ""
 
 Mks = int(input("Enter the number of marks you want to enter:-\n"))
 print("Enter the Marks you want to enter")
@@ -77,9 +77,9 @@ LstoMks = []
 for i in range(0,Mks,1):
     Marks = int(input(i+1))
     LstoMks.append(Marks)
-TMark = TotMarks(LstoMks)
-Percentage = PercMarks(TMark,Mks)
+tMark = totMarks(LstoMks)
+Percentage = percMarks(TMark,Mks)
 Grade(Percentage)
-Master(FirstName,MiddleName,LastName,LstoMks,TMark,Mks,Percentage)
+Master(firstName,middleName,lastName,LstoMks,tMark,Mks,Percentage)
 
 #-----------------------------------------------------------END---------------------------------------------------------

@@ -11,9 +11,9 @@ print("Length of second string is: ",L_of_Sdstrg,)
 
 print("-----------------------------------------------------")
 # Concatinating strings
-ConctdString = frstStrg + scndStrng
-print("The concatted string is: ",ConctdString)
-L_of_ConctdStrg = len(ConctdString)
+conctdString = frstStrg + scndStrng
+print("The concatted string is: ",conctdString)
+L_of_ConctdStrg = len(conctdString)
 print("Length of concatted string is: ",L_of_ConctdStrg)
 print("-----------------------------------------------------")
 

@@ -2,11 +2,13 @@ car = {"brand":"ford",'year':1990,'model':'mustang','design':'sedan'}  # diction
 print(car)
 
 # copy function
-vehicle = car.copy()  # copy() creates copy of dictionary
+vehicle = car.copy()  
+# copy() creates copy of dictionary
 print(vehicle)
 
 # pop function
-car.pop('design')  # pop() deleted the item of the key
+car.pop('design')  
+# pop() deleted the item of the key
 print(car)
 
 # accessing the item of key

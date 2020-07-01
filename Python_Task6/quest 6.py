@@ -18,6 +18,12 @@ def findType(n):
 n = int(input("enter the times you want to enter the data\n"))
 for i in range(0,n,1):
     n = int(input("Enter the number\n"))
-    print(findType(n))
+    divType = findType(n)
+    if divType == 0:
+        print("Perfect Number\n")
+    elif divType == 1:
+        print("Deficient Number\n")
+    else:
+        print("Abundant Number\n")
 
 # -----------------------------------------------------END--------------------------------------------------------------

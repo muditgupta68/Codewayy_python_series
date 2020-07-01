@@ -9,7 +9,8 @@ countAt = 0
 for i in range(0,strLen,1):
     if strngInp[i] == 'a' or strngInp[i] == 'A':
         if strngInp[i+1] == 't' or strngInp[i+1] == 'T':
-            countAt = countAt + 1
+            if strngInp[i+2] == ' ':
+                countAt = countAt + 1
     else:
         continue
 

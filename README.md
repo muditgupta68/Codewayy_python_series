@@ -2,7 +2,7 @@
 Here we will perform various task regarding python by  team CODEWAYY
 There are various tasks that will be assigned by team codewayy on python and we have to publish them.
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/muditgupta68/Codewayy_python_series)
 
 ## *Task 1* ✍:
 

@@ -1,0 +1,21 @@
+12345		Mudit Gupta
+Course ID		Course Name				 Course Credit				 Grade
+
+1234		Object-Oriented in C++				3						A
+1235		Financial Engineering				3						B
+1239		Fundamental English					2						B
+1240		Fundamental Japanese				2						A
+GPA:	3.5
+Tuition Fee:	5000
+
+12347		Sanjay Gupta
+Course ID		Course Name				 Course Credit				 Grade
+
+1234		Object-Oriented in C++				3						C
+1237		Intro Social Science				2						B
+1238		Intro Linear Algebra				3						C
+1239		Fundamental English					2						A
+1240		Fundamental Japanese				2						B
+GPA:	2.6666666666666665
+Tuition Fee:	6000
+
